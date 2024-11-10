@@ -4,17 +4,10 @@
 #include "includes.hpp"
 
 // Frame Processing Functions Declarations
-
 void *FrameProcessing(void *arg);
 
 
-
-
-
-
-
 // Frame Processing Functions Implementations
-
 void *FrameProcessing(void *arg)
 {
     quicServer *server = (quicServer *)arg;
