@@ -36,7 +36,7 @@
 // Global Constants
 int MAX_CONNECTION_ID_SIZE = 8; // 8 bytes = 64 bits
 int MAXLINE = 1024;             // 1 KB
-char *SERVER_PORT = "12345";
+char SERVER_PORT[] = "12345";
 
 // Global variable
 int byteSizeOfConnectionID = 2; // will be re-set by serverCreationConstructor
